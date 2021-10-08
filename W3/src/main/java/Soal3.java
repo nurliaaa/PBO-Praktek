@@ -50,10 +50,10 @@ public class Soal3 {
 			
 		} else {
 		System.out.println("Angka yang Anda masukkan salah"); 
-				    }
-			input.close();
+		}
         
-    
-}
+		input.close();
+  
+         }
     
 }
