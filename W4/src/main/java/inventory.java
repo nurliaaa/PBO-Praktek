@@ -24,7 +24,7 @@ public class inventory {
     void pengadaan() {
     initBarang();
         barangg[0].setStok(barangg[0].getStok() + 20);
-//       barangs[0].stok -= 30; //Bisa juga dikurangi dong?
+//      barangs[0].stok -= 30; //Bisa juga dikurangi dong?
 //      barangs[0].stok *= 30; //dikali juga bisa dong??
         showBarang();
     }

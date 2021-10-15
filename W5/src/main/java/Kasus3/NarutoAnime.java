@@ -3,19 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Kasus2;
+package Kasus3;
 
 /**
  *
  * @author LIA
  */
-public class Item {
-    private String name;
-    private Item() {
-        name = "Ipin";
+public class NarutoAnime {
+    public static void main(String[] args) {
+        Sasuke s = new Sasuke();
+        s.printDojutsu();
+        Itachi i = new Sasuke();
+        i.printKekkeiGenkai();
     }
-    public Item(String name) { 
-    this();
-    System.out.println(this.name);
-    }
- }
+}

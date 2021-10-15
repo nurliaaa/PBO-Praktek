@@ -3,19 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Kasus2;
+package Kasus3;
 
 /**
  *
  * @author LIA
  */
-public class Item {
-    private String name;
-    private Item() {
-        name = "Ipin";
+public class Sasuke extends Itachi{
+    String Dojutsu = "Sharingan";
+    
+    void printDojutsu() {
+        super.printDojutsu();
+        System.out.println(this.Dojutsu);
     }
-    public Item(String name) { 
-    this();
-    System.out.println(this.name);
-    }
- }
+
+}
