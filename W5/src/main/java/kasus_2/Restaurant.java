@@ -5,7 +5,6 @@
  */
 package kasus_2;
 
-import static Kasus2.Restaurant.id;
 
 /**
  *
@@ -50,7 +49,6 @@ public class Restaurant {
                 if(stok <= MenuMakanan[i].getStok()){
                     System.out.println("Sisa Menu Terjual");
                     MenuMakanan[i].Kurang_Stok(stok);
-                
             }
          }
        }
