@@ -53,8 +53,6 @@ public class Main {
             mn.setHargaMakanan(12000.0);
             break;
         }
-      } 
-        
-    }
-        
-}
+      }  
+    }      
+  }

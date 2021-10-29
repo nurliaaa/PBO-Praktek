@@ -23,12 +23,8 @@ public class Book {
     }
 }
  
-// Library class contains
-// list of books.
 class Library
 {
- 
-    // reference to refer to list of books.
     private final List<Book> books;
      
     Library (List<Book> books)

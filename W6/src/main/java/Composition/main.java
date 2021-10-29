@@ -13,13 +13,10 @@ import java.io.*;
 import java.util.*;
 
 public class main {
-    public static void main (String[] args)
-    {
-         
+    public static void main (String[] args){  
         Book b1 = new Book("Dilan", "Pidi Baiq");
         Book b2 = new Book("Bumi", "Tere Liye");
-        Book b3 = new Book("Dia Tanpa Aku", "Esti Kinasih");
-         
+        Book b3 = new Book("Dia Tanpa Aku", "Esti Kinasih"); 
         
         List<Book> books = new ArrayList<Book>();
         books.add(b1);

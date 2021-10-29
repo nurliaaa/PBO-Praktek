@@ -16,15 +16,12 @@ public class Menu {
     public String getMakanan() {
         return makanan;
     }
-    
     public void setMakanan(String makanan) {
         this.makanan = makanan;
     }
-    
     public double getHargaMakanan() {
         return hargaMakanan;
     }
-    
     public void setHargaMakanan(double hargaMakanan) {
         this.hargaMakanan = hargaMakanan;
     }
