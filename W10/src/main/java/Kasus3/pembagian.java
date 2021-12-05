@@ -12,15 +12,15 @@ package Kasus3;
 import java.util.Scanner;
 public class pembagian {
     public static void main (String[] args) {
-	//try {
+	try {
 		Scanner sc = new Scanner (System.in);
 		System.out.println("Bilangan : ");
 		int Angka = sc.nextInt();
 		System.out.println("Pembagi : ");
 		int Pembagi = sc.nextInt();
 		System.out.println("Hasil " + Angka/Pembagi);
-	//} catch (ArithmeticException ex) {
+	} catch (ArithmeticException ex) {
 		System.out.println("Pembagi tidak boleh nol!");
 	}
  }
-//}
+}

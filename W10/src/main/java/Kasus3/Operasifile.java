@@ -17,13 +17,13 @@ import java.io.FileNotFoundException;
 public class Operasifile {
 
 	public static void main (String[] args) {
-		//try {
+		try {
 			File text = new File("file.txt");
 			Scanner myReader = new Scanner(text);
 			myReader.close();
-	//	} catch (Exception e) {
+		} catch (Exception e) {
 			System.out.println("File tidak ditemukan");
 		}
 	}
 	
-//}
+}

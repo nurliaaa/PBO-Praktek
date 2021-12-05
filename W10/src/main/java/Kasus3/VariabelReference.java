@@ -12,12 +12,12 @@ package Kasus3;
 public class VariabelReference {
    public static void main (String[] args) {
 	int i;
-	//i = 5;
+	i = 5;
         
-	//try {
+	try {
 		System.out.println("angka " + i);
-	//} catch (Exception e) {
-	//	System.out.println("error input");
-	//}
+	} catch (Exception e) {
+		System.out.println("error input");
+	}
     }
 }
